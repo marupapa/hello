@@ -1,9 +1,9 @@
 package main
 
+import "git/hello/testlib"
+
 func main() {
-	s := "abcdefghijklmnop"
 
-	s = s[2:5]
-
-	println(s)
+	song := testlib.GetMusic("Alicia Keys")
+	println(song)
 }
