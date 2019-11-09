@@ -1,9 +1,10 @@
 package main
 
-import "git/hello/testlib"
+import (
+	"/user/leehyuk/go/src/git/hello/cat/"
+)
 
 func main() {
 
-	song := testlib.GetMusic("Alicia Keys")
-	println(song)
+	c := cat.Cat{Name: "Kuro"}
 }
