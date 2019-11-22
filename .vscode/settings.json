@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "Master",
+            "dialect": "MySQL",
+            "name": "127.0.0.1",
+            "password": "1234$",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "database": "Master",
+            "dialect": "MySQL",
+            "name": "127.0.0.1",
+            "password": "1234!",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
